@@ -32,6 +32,7 @@ def calc(task: str | None = typer.Argument(None)) -> None:
         tokens = tokenization(task)
         norm = validation(tokens)
         result = calculation(norm)
+        save(task, result)
         print(result)
     except (ValueError, ZeroDivisionError) as error:
         typer.echo(str(error), err=True)
