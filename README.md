@@ -62,8 +62,10 @@ lab1/
 длину mm,cm,m,km
 массу g,kg
 температуру c f k
-2) python -m toolkit convert VALUE --from UNIT --to UNIT
+<pre>
+python -m toolkit convert VALUE --from UNIT --to UNIT
 Пример:
+</pre>
 <pre>
  Терминал:
  python -m toolkit convert 2500 --from km --to m
