@@ -97,5 +97,20 @@ python -m toolkit --help
  
 </pre>
 Также я реализовал историю вычислений(калькулятора) в JSON
+### тесты:
+<pre>
+ Терминал:
+pytest
+ Вывод в терминал:
+ platform darwin -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0
+rootdir: /Users/rash/lab1-1
+configfile: pyproject.toml
+collected 13 items                                                                               
+
+tests/test_code.py ............. 
+</pre>
+
+Вот так воть :)
+
 
 
